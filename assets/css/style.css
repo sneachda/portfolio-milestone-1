@@ -11,7 +11,6 @@ body, html {
 
 .container-fluid {
     overflow: hidden;
-    padding: 0 40px;
 }
 
 /*----------------------------------------------------Background Colors */
@@ -24,6 +23,25 @@ body, html {
     background-color: #311211;
 
 }
+
+/*----------------------------------------------------General Text */
+
+h1,
+h2 {
+    color: #f0e7e7;
+    margin: 0;
+    text-shadow: 1.5px 1.5px 1px #9a9a9a;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+
 
 /*----------------------------------------------------Navigation */
 
