@@ -16,7 +16,8 @@ body, html {
 /*----------------------------------------------------Background Colors */
 
 .container-logo,
-.container-video {
+.container-video,
+.container-contact {
     background-color: #311211;
 }
 
