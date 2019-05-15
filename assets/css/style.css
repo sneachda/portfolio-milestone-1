@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
+
+.html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container-fluid {
+    overflow: hidden;
+    padding: 0 40px;
+}
+
+/*----------------------------------------------------Background Colors */
+
+.container-logo {
+    background-color: #311211;
+}
+
+.navbar-bg-color {
+    background-color: #311211;
+
+}
+
+/*----------------------------------------------------Navigation */
+
+.logo-top {
+    width: 70px;
+    height: 70px;
+    float: left;
+    position: relative;
+    mix-blend-mode: hard-light;
+    opacity: 0.6;
+    z-index: 1;
+
+}
+
+.navbar {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    text-align: right;
+    padding: 0 40px;
+    float: right;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+
+/*----------------------------------------------------Home Page */
+
+
+.name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    color: #f0e7e7;
+    display: block;
+    letter-spacing: 3px;
+}
+
+.title {
+    font-family: "Merriweather",sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #f0e7e7;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.logo-home {
+    display: inline-block;
+    padding: 0 30px 0px;
+    float: none;
+    text-align: center;
+}
+
+.image-fluid {
+    height: auto;
+    max-width: 100%;
+    box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
+    -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
+    -moz-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
+}
+
+.img-left {
+    padding: 0;
+    mix-blend-mode: hard-light;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.logo-img-home {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    mix-blend-mode: hard-light;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.social-links li a i {
+    width: 34px;
+    height: 34px;
+    padding: 13px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 8px;
+    margin-top: 135px;
+    color: #F0E7E7;
+    background: #e51312;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    mix-blend-mode: hard-light;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.social-links li a i:hover {
+    background: #cc3939;
+}
