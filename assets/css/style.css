@@ -25,6 +25,7 @@ body, html {
 }
 
 .container-about,
+.container-projects,
 .container-footer {
     background: #b08b72;
 }
@@ -225,6 +226,65 @@ h2 {
 
 .container-video {
     padding: 40px;
+}
+
+/*----------------------------------------------------Projects */
+
+.container-projects {
+    position: relative;
+    padding: 30px;
+}
+
+.section-title-projects {
+    margin-top: 15px;
+
+}
+
+/* https://codepen.io/nxworld/pen/ZYNOBZ */
+
+.img-hover figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.img-hover figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+/* end of tutorial code */
+
+.img-hover {
+    position: relative;
+    padding: 20px;
+    margin-top: 5%;
+    box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
+    -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
+    -moz-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
+}
+
+.text {
+    font-family: "Merriweather",sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #f0e7e7;
+    display: inline-block;
+    mix-blend-mode: hard-light;
+    opacity: 0.8;
+    z-index: 1;
+    text-align: center;
+}
+
+.image-description {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #f0e7e7;
+    display: block;
+    letter-spacing: 2px;
+    text-align: center;
+
 }
 
 
