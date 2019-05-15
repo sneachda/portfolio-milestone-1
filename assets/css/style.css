@@ -75,6 +75,19 @@ h2 {
     -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
 }
 
+/*----------------------------------------------------Image Breakers */
+
+#stadium1 {
+    background-image: url('../images/stadium2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 
 /*----------------------------------------------------Navigation */
