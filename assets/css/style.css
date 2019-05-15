@@ -30,7 +30,9 @@ body, html {
     background: #b08b72;
 }
 
-/*----------------------------------------------------General Text */
+/*----------------------------------------------------General Text
+
+code used to style text across various sections */
 
 h1,
 h2 {
@@ -229,36 +231,38 @@ h2 {
     margin-right: 10px;
 }
 
+.container-video {
+    padding: 40px;
+}
+
 .embed-responsive-item {
     mix-blend-mode: hard-light;
     opacity: 0.8;
     z-index: 1;
-
 }
 
-.container-video {
-    padding: 40px;
-}
 
 /*----------------------------------------------------Projects */
 
 .container-projects {
     position: relative;
-    padding: 30px;
+    padding: 50px;
+
 }
 
 .section-title-projects {
-    margin-top: 15px;
+    margin-top: 5px;
 
 }
 
-/* https://codepen.io/nxworld/pen/ZYNOBZ */
+/* the below code was referenced from  https://codepen.io/nxworld/pen/ZYNOBZ
+I have used it to achieve unique hover effect and change parameters accordingly. */
 
 .img-hover figure img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
 }
 .img-hover figure:hover img {
 	-webkit-filter: grayscale(0);
@@ -296,10 +300,7 @@ h2 {
     display: block;
     letter-spacing: 2px;
     text-align: center;
-
 }
-
-
 
 
 
