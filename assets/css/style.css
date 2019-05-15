@@ -91,6 +91,18 @@ h2 {
     padding: 0;
 }
 
+#stadium2 {
+    background-image: url('../images/stadium5.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 /*----------------------------------------------------Navigation */
 
