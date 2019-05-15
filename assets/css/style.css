@@ -55,7 +55,7 @@ h2 {
     font-weight: 300;
     font-size: 48px;
     color: #f0e7e7;
-    text-shadow: 1px 1px 2px #ffffff;;
+    text-shadow: 1.5px 1.5px 1px #9a9a9a;
     display: block;
     letter-spacing: 2px;
     padding: 25px;
@@ -305,7 +305,46 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 /*----------------------------------------------------Contact */
 
+.contact-form {
+    padding: 40px;
+}
 
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 75%;
+
+}
+
+.form-control {
+    margin: 30px;
+    mix-blend-mode: hard-light;
+    opacity: 0.8;
+    z-index: 1;
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+    -webkit-box-shadow: 2px 2px 12x rgba(50, 50, 50, 50);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+}
+
+.btn-custom {
+    color: #F0E7E7;
+    background: #e51312;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    mix-blend-mode: hard-light;
+    opacity: 0.9;
+    z-index: 1;
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+    -webkit-box-shadow: 2px 2px 12x rgba(50, 50, 50, 50);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+}
+
+.btn-custom:hover {
+    background: #cc3939;
+    color: #F0E7E7;
+}
 
 
 
