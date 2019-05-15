@@ -24,7 +24,8 @@ body, html {
     background-color: #311211;
 }
 
-.container-about {
+.container-about,
+.container-footer {
     background: #b08b72;
 }
 
@@ -224,4 +225,17 @@ h2 {
 
 .container-video {
     padding: 40px;
+}
+
+
+
+
+
+/*----------------------------------------------------Footer */
+
+.container-footer {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+
 }
