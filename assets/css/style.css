@@ -164,7 +164,7 @@ h2 {
 
 .image-fluid {
     height: auto;
-    max-width: 100%;
+    width: 100%;
     box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
     -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
     -moz-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
@@ -346,6 +346,12 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     color: #F0E7E7;
 }
 
+.section-title-contact {
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+    -webkit-box-shadow: 2px 2px 12x rgba(50, 50, 50, 50);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+}
+
 
 
 
@@ -379,5 +385,70 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     background: #cc3939;
 }
 
-/*----------------------------------------------------Media Quaries */
+/*----------------------------------------------------Media Queries */
+
+@media (max-width: 991px) {
+    .brakers {
+        display: none;
+    }
+    .logo-img-home {
+        margin-top: 60px;
+        width: 150px;
+        height: 150px;
+    }
+    .name, .section-title {
+        font-size: 2.2rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .p-style {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    .social-links li a i {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .contact-form {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #stadium1, #stadium2 {
+        height: 50vh;
+    }
+    .logo-img-home {
+        margin-top: 100px;
+        width: 200px;
+        height: 200px;
+    }
+    .name, .section-title {
+        font-size: 2.6rem;
+    }
+    .title {
+        font-size: 1.6rem;
+    }
+    .p-style {
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+    .social-links li a i {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .contact-form {
+        padding: 30px;
+    }
+    .form-control {
+        margin: 20px;
+    }
+}
+
 
