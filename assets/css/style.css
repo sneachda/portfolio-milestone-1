@@ -380,7 +380,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     position: absolute;
     display: inline-block;
     width: 100%;
-    height: 100px;
+    height: 120px;
     text-align: center;
 }
 
@@ -391,7 +391,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     border-radius: 10px;
     font-size: 14px;
     line-height: 8px;
-    margin-top: 33px;
+    margin-top: 30px;
     color: #F0E7E7;
     background: #e51312;
     transition: all 0.25s ease-in-out;
@@ -402,6 +402,10 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 .social-links-footer li a i:hover {
     background: #cc3939;
+}
+
+.footer-year {
+    padding: 0;
 }
 
 /*----------------------------------------------------Media Queries */
