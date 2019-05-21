@@ -106,7 +106,6 @@ h2 {
     padding: 0;
 }
 
-
 /*----------------------------------------------------Navigation */
 
 .logo-top {
@@ -144,7 +143,6 @@ h2 {
 }
 
 /*----------------------------------------------------Home Page */
-
 
 .name {
     font-family: "Montserrat", sans-serif;
@@ -236,10 +234,19 @@ h2 {
     display: inline-block;
     margin-top: 70px;
     margin-right: 10px;
+    color: #262121;
+}
+
+.p-aboutme-video {
+    color: #f0e7e7;
+    margin-top: 70px;
+    padding: 20px;
 }
 
 .about {
     margin-right: 10px;
+    color: #262121;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.95);
 }
 
 .container-video {
@@ -263,6 +270,8 @@ h2 {
 
 .section-title-projects {
     margin-top: 5px;
+    color: #262121;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.95);
 
 }
 
@@ -295,7 +304,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     font-family: "Merriweather",sans-serif;
     font-weight: 100;
     font-size: 14px;
-    color: #f0e7e7;
+    color: #262121;
     display: inline-block;
     mix-blend-mode: hard-light;
     opacity: 0.8;
@@ -307,7 +316,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 15px;
-    color: #f0e7e7;
+    color: #262121;
     display: block;
     letter-spacing: 2px;
     text-align: center;
