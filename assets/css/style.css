@@ -235,10 +235,18 @@ h2 {
     margin-top: 70px;
     margin-right: 10px;
     color: #262121;
+    font-family: "Merriweather",sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+    mix-blend-mode: hard-light;
+    opacity: 0.8;
+    z-index: 1;
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+    -webkit-box-shadow: 2px 2px 12x rgba(50, 50, 50, 50);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
 }
 
 .p-aboutme-video {
-    color: #f0e7e7;
     margin-top: 70px;
     padding: 20px;
 }
@@ -432,10 +440,12 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     }
     .p-style {
         font-size: 0.8rem;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .p-aboutme {
+        font-size: 0.8rem;
         margin-bottom: 30px;
+        margin-top: 15px;
     }
     .social-links li a i {
         margin-top: 50px;
@@ -444,9 +454,8 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     .contact-form {
         margin-top: 0;
         margin-bottom: 20px;
-        padding: 10px;
+        padding: 20px;
     }
-
     .form-control {
         margin: 10px;
     }
@@ -467,7 +476,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     .title {
         font-size: 1.6rem;
     }
-    .p-style {
+    .p-style, .p-aboutme {
         font-size: 1.2rem;
         margin-top: 30px;
     }
