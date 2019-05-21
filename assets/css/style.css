@@ -224,7 +224,7 @@ h2 {
 .p-aboutme {
     padding: 30px;
     display: inline-block;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-right: 10px;
 }
 
@@ -318,6 +318,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 .form-control {
     margin: 30px;
+    margin-left: 20px;
     mix-blend-mode: hard-light;
     opacity: 0.8;
     z-index: 1;
@@ -327,6 +328,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 }
 
 .btn-custom {
+    float: center;
     color: #F0E7E7;
     background: #e51312;
     transition: all 0.25s ease-in-out;
@@ -387,12 +389,12 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 /*----------------------------------------------------Media Queries */
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
     .brakers {
         display: none;
     }
     .logo-img-home {
-        margin-top: 60px;
+        margin-top: 40px;
         width: 150px;
         height: 150px;
     }
@@ -405,6 +407,9 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     .p-style {
         font-size: 0.8rem;
         margin-top: 10px;
+    }
+    .p-aboutme {
+        margin-bottom: 30px;
     }
     .social-links li a i {
         margin-top: 50px;
@@ -422,7 +427,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #stadium1, #stadium2 {
-        height: 50vh;
+        height: 30vh;
     }
     .logo-img-home {
         margin-top: 100px;
