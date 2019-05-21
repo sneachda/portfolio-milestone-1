@@ -115,9 +115,12 @@ h2 {
     float: left;
     position: relative;
     mix-blend-mode: hard-light;
-    opacity: 0.6;
+    opacity: 0.8;
     z-index: 1;
+}
 
+.nav {
+    color: #9a9a9a;
 }
 
 .navbar {
@@ -132,6 +135,13 @@ h2 {
     opacity: 0.9;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #f0e7e7;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #9a9a9a;
+}
 
 /*----------------------------------------------------Home Page */
 
