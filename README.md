@@ -78,3 +78,29 @@ The following was used to create the website:
 5.  [Google Fonts](https://fonts.google.com/) - used to style the website fonts.
 6.  [YouTube](https://www.youtube.com/) - host of video included in the project section
 7.  Adobe XD - tool used for the wireframes.
+
+
+
+
+## Deployment
+
+The site was developed using PyCharm. Using version control in PyCharm I was able to commit and push to GitHub.
+
+Those steps were taking in order to deploy my page from GitHub repository:
+1.  On Github navigate to [sneachda/portfolio-milestone-1](https://github.com/sneachda/portfolio-milestone-1)
+2.  From the menu at the top click on  `settings`
+3.  Scroll down to the *GitHub pages* section
+4.  Under *Source* section click on dropdown menu and select *Master Branch* as your GitHub pages publishing source.
+5.  Select  `save`.
+
+To create a local repository please follow those steps
+
+1.  Go to [Github Project Repository](https://github.com/sneachda/portfolio-milestone-1)  
+2.  Under the repository name click  `Clone or download`  
+3.  In the 'Clone with HTTPs section' clone URL for the repository.
+4.  Open Git Bash in your local platform.
+5.  Change the current working directory to the location where you want the cloned directory to be made.
+6.  Type git clone, and then paste the URL copied earlier: 
+git clone https://github.com/sneachda/portfolio-milestone-1.git
+7.  After pressing ENTER your local clone will be created.
+
