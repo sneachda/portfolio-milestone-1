@@ -39,22 +39,28 @@ Each section has a responsive design and has navigation bar with logo to the lef
 At the bottom there is a footer which include copyright and social media icons.
 
 *Landing page*
+
 Home page includes my logo, title and links to social media on the right hand side. On the left you will find an image from my work environment.
 As mentioned before, its not conventional to have social media icons at the top of the website, but looking at past experiences, I believe potential clients would appreciate fast glance on my CV or LinkedIn. 
 
 *about me*
+
 I decided to include a bit of information about me and list couple of my biggest jobs so far.  Experiences speak far more than words and I believe people visiting my portfolio would appreciate that. 
 As per course requirements I also included video file, which shows another EVS operator at work. Unfortunately for the lack of possibility to access my own videos, I included one from youtube.
 
 *projects*
+
 As per advice, I focused on 4 highlight points of my career with short explanation. I also included possibility for "read more" if someone wished to check specific section further. 
 
 *contact me*
+
 Simple form that allows for clients to get easily in touch with any queries. All fields are mandatory.
 
 *cv*
+
 CV opens as PDF document in new tab (allows people download the file and take it away)
 
 **Features to implement** 
+
 In the future, I would like to add further projects that I've worked on to create a more comprehensive project section. I would also look to add more animation to some sections when I advance more with languages. 
 Hopefully I will also be able to add my own videos when I travel back home - if I was to use this page commercially I would have to swap youtube video.
