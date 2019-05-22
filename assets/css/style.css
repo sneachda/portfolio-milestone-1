@@ -300,6 +300,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 .img-hover {
     position: relative;
+    height: min-content;
     padding: 20px;
     margin-top: 5%;
     box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
@@ -414,6 +415,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 .footer-year {
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*----------------------------------------------------Media Queries */
