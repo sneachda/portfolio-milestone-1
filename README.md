@@ -23,6 +23,7 @@ I also included links to outside sources like my LinkedIn account and Instagram.
 
 
 Wireframe:
+[design](wireframe mockup/visual.jpg)
 
 
 
