@@ -60,7 +60,23 @@ Simple form that allows for clients to get easily in touch with any queries. All
 
 CV opens as PDF document in new tab (allows people download the file and take it away)
 
+
 **Features to implement** 
 
 In the future, I would like to add further projects that I've worked on to create a more comprehensive project section. I would also look to add more animation to some sections when I advance more with languages. 
 Hopefully I will also be able to add my own videos when I travel back home - if I was to use this page commercially I would have to swap youtube video.
+
+
+## Technology Used
+
+<![endif]-->
+
+The following was used to create the website:
+
+1.  PyCharm - coding platform that was used for the coding and storing a local repository.
+2.  [Bootstrap](https://www.bootstrapcdn.com/) - used to simplify the structure and to make it responsive.
+3.  [FontAwesome](https://use.fontawesome.com) - accessed for social media icons.
+4.  [jquery](https://www.jquery.com) - used to reference Javascrip modal
+5.  [Google Fonts](https://fonts.google.com/) - used to style the website fonts.
+6.  [YouTube]([https://www.youtube.com/](https://www.youtube.com/)) - host of video included in the project section
+7.  Adobe XD - tool used for the wireframes.
