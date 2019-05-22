@@ -93,7 +93,8 @@ Those steps were taking in order to deploy my page from GitHub repository:
 4.  Under *Source* section click on dropdown menu and select *Master Branch* as your GitHub pages publishing source.
 5.  Select  `save`.
 
-To create a local repository please follow those steps
+
+To create a local repository please follow those steps:
 
 1.  Go to [Github Project Repository](https://github.com/sneachda/portfolio-milestone-1)  
 2.  Under the repository name click  `Clone or download`  
