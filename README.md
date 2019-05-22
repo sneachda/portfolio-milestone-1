@@ -105,3 +105,35 @@ To create a local repository please follow those steps:
 git clone https://github.com/sneachda/portfolio-milestone-1.git
 7.  After pressing ENTER your local clone will be created.
 
+
+
+## Credits
+
+**Content** 
+
+All content in 'about me' section and 'projects' section in this portfolio were written by me.
+
+**Media** 
+
+All pictures included in this project have been taken by me during work trips. 
+Video used to present EVS operator at work in 'about me' section has been taken from youtube - credit to [jerryrig7](https://www.youtube.com/user/jerryrig7)
+Logo has been designed for my own business purpuses by Scottish Graphic Company baseed in Glasgow in 2016.
+
+**Acknowledgments** 
+
+- The codeinstitute example site by Haley Schafer inspired the layout and navbar design.
+
+- The codeinsitute example cv mini project inspired the social media icons.
+
+- I have based my hover effect over images in *project* section on code I came accross on [CodePen](https://codepen.io/nxworld/pen/ZYNOBZ)
+
+Special thanks to Simen Daelin for looking over my project and to Anna Greaves (CSS Fundamental Lead) for her Monday night Slack classes :)
+
+
+
+
+
+**Disclaimer** 
+The content of this website is for educational purposes only.
+
+
