@@ -25,6 +25,8 @@ I also included links to outside sources like my LinkedIn account and Instagram.
 Wireframe:
 [design](wireframe/visual.jpg)
 
+[drawings](wireframe/draw.jpg)
+
 
 
 ## Features
