@@ -121,8 +121,8 @@ h2 {
     color: #f0e7e7;
 }
 
-.nav .navbar-dark .navbar-nav .nav-link:hover {
-    color: #9a9a9a;
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #7a7372;
 }
 
 /*----------------------------------------------------Home Page */
@@ -212,6 +212,13 @@ h2 {
     -moz-box-shadow: -5px 7px 5px rgba(50, 50, 50, 50);
 }
 
+.section-title-about {
+    margin-right: 10px;
+    margin-left: 15px;
+    color: #262121;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.95);
+}
+
 .p-aboutme {
     padding: 30px;
     display: inline-block;
@@ -234,13 +241,6 @@ h2 {
     padding: 20px;
 }
 
-.section-title-about {
-    margin-right: 10px;
-    margin-left: 15px;
-    color: #262121;
-    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.95);
-}
-
 .container-video {
     padding: 40px;
 }
@@ -256,7 +256,6 @@ h2 {
 .container-projects {
     position: relative;
     padding: 50px;
-
 }
 
 .section-title-projects {
@@ -314,11 +313,14 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     text-align: center;
 }
 
-.collapse {
-
-}
-
 /*----------------------------------------------------Contact */
+
+.section-title-contact {
+    margin-left: 15px;
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+    -webkit-box-shadow: 2px 2px 12x rgba(50, 50, 50, 50);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+}
 
 .center-form {
     padding-top: 50px;
@@ -370,16 +372,6 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     color: #f0e7e7;
 }
 
-.section-title-contact {
-    margin-left: 15px;
-    box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
-    -webkit-box-shadow: 2px 2px 12x rgba(50, 50, 50, 50);
-    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
-}
-
-
-
-
 /*----------------------------------------------------Footer */
 
 .container-footer {
@@ -415,7 +407,6 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     font-family: "Montserrat", sans-serif;
 }
 
-
 /*----------------------------------------------------Media Queries */
 
 @media (max-width: 768px) {
@@ -450,6 +441,9 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     .social-links li a i {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    .section-title-projects{
+        margin-top: 0;
     }
     .section-title-contact{
         padding-top: 5px;
