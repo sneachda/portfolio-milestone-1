@@ -1,7 +1,7 @@
 ![l](assets/images/logo.jpg)
 
 # *- EVS operator & editor -*
-# **porfolio**
+# **portfolio**
 
 User-Centric Frontend Development - Code Institute
 – **First Milestone Project** 
@@ -84,6 +84,30 @@ The following was used to create the website:
 7.  Adobe XD - tool used for the wireframes.
 
 
+## Testing
+
+The code has been validated by using:
+- [W3C Mark-up Validation Service](https://validator.w3.org/)
+
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+
+This site has met the objective of creating online presence with minimalistic design and content, but providing enough information and platform to able fast contact. 
+
+All links included on this website have 'target="_blank”’ attribute added, which means they will open in a new tab. That permits user to simply get back where he was within my page. All links have been manually tested to make sure the are linked to correct destination.
+
+
+For contact form to work as planed I added ‘require’ attribute to all the fields (name, email, message). If the fields are left blank – the form won’t submit. Furthermore if email address is invalid, the error message will notify the user.
+
+The website has been tested across multiple browsers (Chrome, Safari, FireFox) and across different screen sizes (Galaxy C5, iPhone 6, iPhone X, iPad, iPad Pro and laptops) to make sure is responsive. 
+
+On bigger screens (min 992px and up) you will be able to see 2 images spread across the whole width of the screen that provide break between sections and give the website the smooth scroll effect. I found this won't look good on smaller screens.
+
+On top of it, all fonts, images and other attributes have been changed accordingly  using media queries, depending on device they are used on. 
+
+
+
+During my tests I came across a struggle to fit my design between iPad and iPad Pro. It seems Pro is much bigger than average iPad size, yet not as big as computer screen. For those reasons special adjustments had to be implemented. 
 
 
 ## Deployment
@@ -131,9 +155,9 @@ All content in 'about me' section and 'projects' section in this portfolio were 
 
 - The codeinsitute example cv mini project inspired the social media icons.
 
-- I have based my hover effect over images in *project* section on code I came accross on [CodePen](https://codepen.io/nxworld/pen/ZYNOBZ)
+- I have based my hover effect over images in *project* section on code I came across on [CodePen](https://codepen.io/nxworld/pen/ZYNOBZ)
 
-Special thanks to Simen Daelin for looking over my project and to Anna Greaves (CSS Fundamental Lead) for her Monday night Slack classes :)
+Special thanks to Simen Daelin for looking over my project and to Anna Greaves (CSS Fundamental Lead) for her Monday nights Slack calls :)
 
 
 
@@ -141,6 +165,7 @@ Special thanks to Simen Daelin for looking over my project and to Anna Greaves (
 
 **Disclaimer** 
 
-The content of this website is for educational purposes only.
+*The content of this website is for educational purposes only.*
+
 
 
