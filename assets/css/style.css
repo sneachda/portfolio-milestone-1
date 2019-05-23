@@ -11,13 +11,10 @@ body, html {
 
 /*----------------------------------------------------Background Colors */
 
+.navbar-bg-color,
 .container-logo,
 .container-video,
 .container-contact {
-    background-color: #311211;
-}
-
-.navbar-bg-color {
     background-color: #311211;
 }
 
@@ -77,8 +74,7 @@ h2 {
 
 /*----------------------------------------------------Image Breakers */
 
-#stadium1 {
-    background-image: url('../images/stadium2.jpg');
+#stadium1, #stadium2 {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -89,16 +85,12 @@ h2 {
     padding: 0;
 }
 
+#stadium1 {
+    background-image: url('../images/stadium2.jpg');
+}
+
 #stadium2 {
     background-image: url('../images/stadium5.jpg');
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 /*----------------------------------------------------Navigation */
@@ -111,10 +103,6 @@ h2 {
     mix-blend-mode: hard-light;
     opacity: 0.8;
     z-index: 1;
-}
-
-.nav {
-    color: #9a9a9a;
 }
 
 .navbar {
@@ -133,7 +121,7 @@ h2 {
     color: #f0e7e7;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.nav .navbar-dark .navbar-nav .nav-link:hover {
     color: #9a9a9a;
 }
 
@@ -325,6 +313,10 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     text-align: center;
 }
 
+.collapse {
+
+}
+
 /*----------------------------------------------------Contact */
 
 .center-form {
@@ -359,6 +351,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     font-family: "Montserrat", sans-serif;
     color: #F0E7E7;
     background: #e51312;
+    margin: 15px;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -438,7 +431,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     .name, .section-title {
         font-size: 2.1rem;
         margin-top: 15px;
-        padding: 20px;
+        padding: 10px;
     }
     .title {
         font-size: 1.2rem;
@@ -458,15 +451,15 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     }
     .section-title-contact{
         padding-top: 5px;
+        padding-bottom: 0;
     }
      .center-form {
         padding: 5px;
     }
      .form-label {
          margin: 0;
-         padding-top: 5px;
+         padding-top: 10px;
      }
-
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -497,9 +490,9 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     }
      .center-form {
         padding: 10px;
+         margin-top: 35px;
     }
      .form-label {
-         padding-top: 10px;
-
+         padding-top: 5px;
      }
 }
