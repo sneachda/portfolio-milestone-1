@@ -155,7 +155,7 @@ All content in 'about me' section and 'projects' section in this portfolio were 
 
 - I have based my hover effect over images in *project* section on code I came across on [CodePen](https://codepen.io/nxworld/pen/ZYNOBZ)
 
-Special thanks to Simen Daelin for looking over my project and to Anna Greaves (CSS Fundamental Lead) for her Monday nights Slack calls :)
+Special thanks to Simen Daelin for looking over my project, to Anna Greaves (CSS Fundamental Lead) for her Monday nights Slack calls and to Maranatha Ilesanmi - my course mentor, for all the useful tips :)
 
 
 
