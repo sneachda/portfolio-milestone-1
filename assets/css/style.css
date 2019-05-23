@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
 
-.html {
-    scroll-behavior: smooth;
-}
-
 body, html {
     height: 100%;
 }
@@ -58,7 +54,6 @@ h2 {
     text-shadow: 1.5px 1.5px 1px #9a9a9a;
     display: block;
     letter-spacing: 2px;
-    padding: 25px;
     margin-top: 10%;
     box-shadow: 5px 5px 3px rgba(50, 50, 50, 50);
     -webkit-box-shadow: 5px 5px 3px rgba(50, 50, 50, 50);
@@ -251,8 +246,9 @@ h2 {
     padding: 20px;
 }
 
-.about {
+.section-title-about {
     margin-right: 10px;
+    margin-left: 5px;
     color: #262121;
     text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.95);
 }
@@ -276,10 +272,9 @@ h2 {
 }
 
 .section-title-projects {
-    margin-top: 5px;
     color: #262121;
     text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.95);
-
+    margin-top: 5px;
 }
 
 /* the below code was referenced from  https://codepen.io/nxworld/pen/ZYNOBZ
@@ -303,9 +298,9 @@ I have used it to achieve unique hover effect and change parameters accordingly.
     height: min-content;
     padding: 20px;
     margin-top: 5%;
-    box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
-    -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
-    -moz-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+    -webkit-box-shadow: 2px 2px 12x rgba(50, 50, 50, 50);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
 }
 
 .text {
@@ -332,26 +327,32 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 /*----------------------------------------------------Contact */
 
-.contact-form {
-    padding: 40px;
-}
-
 .center-form {
-    padding-top: 10px;
+    padding-top: 50px;
     margin: 0 auto;
-    max-width: 75%;
-
+    max-width: 70%;
 }
 
 .form-control {
-    margin: 30px;
-    margin-left: 20px;
+    padding: 10px;
     mix-blend-mode: hard-light;
     opacity: 0.8;
     z-index: 1;
     box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
     -webkit-box-shadow: 2px 2px 12x rgba(50, 50, 50, 50);
     -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 50);
+}
+
+.form-label {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #f0e7e7;
+    display: inline-block;
+    mix-blend-mode: hard-light;
+    opacity: 0.8;
+    z-index: 1;
+    text-align: center;
 }
 
 .btn-custom {
@@ -372,7 +373,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
 
 .btn-custom:hover {
     background: #cc3939;
-    color: #F0E7E7;
+    color: #f0e7e7;
 }
 
 .section-title-contact {
@@ -435,7 +436,7 @@ I have used it to achieve unique hover effect and change parameters accordingly.
         height: 150px;
     }
     .name, .section-title {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
         margin-top: 15px;
         padding: 20px;
     }
@@ -455,14 +456,17 @@ I have used it to achieve unique hover effect and change parameters accordingly.
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .contact-form {
-        margin-top: 0;
-        margin-bottom: 20px;
-        padding: 20px;
+    .section-title-contact{
+        padding-top: 5px;
     }
-    .form-control {
-        margin: 10px;
+     .center-form {
+        padding: 5px;
     }
+     .form-label {
+         margin: 0;
+         padding-top: 5px;
+     }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -488,10 +492,14 @@ I have used it to achieve unique hover effect and change parameters accordingly.
         margin-top: 70px;
         margin-bottom: 70px;
     }
-    .contact-form {
-        padding: 30px;
+    .section-title-contact{
+        padding-top: 15px;
     }
-    .form-control {
-        margin: 20px;
+     .center-form {
+        padding: 10px;
     }
+     .form-label {
+         padding-top: 10px;
+
+     }
 }
