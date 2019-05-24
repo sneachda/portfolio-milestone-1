@@ -99,11 +99,13 @@ All links included on this website have *target=_blank* attribute added, which m
 
 For the contact form to work as planed, I added ‘require’ attribute to all the fields (name, email, message). If the fields are left blank – the form won’t submit. Furthermore if email address is invalid, the error message will notify the user.
 
-The website has been tested across multiple browsers (Chrome, Safari, FireFox) and across different screen sizes (Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure is responsive. 
+The website has been tested across multiple browsers (Chrome, Safari, FireFox) and across different screen sizes (Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure is responsive. Bootstrap has been used to achieve this.
 
-On bigger screens (min 992px and up) you will be able to see 2 images spread across the whole width of the screen that provide break between couple of sections. This gives the website the smooth scroll effect. I found this effect won't look good on smaller screens that's why it has been disabled. Also for those reasons I decided not to include picture of myself in *about me* section on those smaller screens.
+On bigger screens (min 992px and up) you will be able to see 2 images spread across the whole width of the screen that provide break between couple of sections (between *home page* and *about me* and then between *projects* and *contact me*). This gives the website the smooth scroll effect. I found this effect won't look good on smaller screens that's why it has been disabled. Also for those reasons I decided not to include picture of myself in *about me* section on those smaller screens.
 
-On top of it all, fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have been used to make them work.  
+*Project* section has 4 columns, displayed next to each other, but on smaller screens it changes to 2 on top of 2.
+
+All fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have been used to make them work.  
 
 During my tests I came across a struggle to fit my design between iPad and iPad Pro. It seems Pro is much bigger than average iPad size, yet not as big as computer screen. For those reasons special adjustments had to be implemented. 
 
