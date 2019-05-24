@@ -95,7 +95,7 @@ The code has been validated using:
 
 This site has met the objective of creating online presence with minimalistic design and content, but providing enough information and platform to enable fast contact. 
 
-All links included on this website have *target=_blank* attribute added, which means they will open in a new tab. That permits users to simply get back where they were within my page. All links have been manually tested to make sure the are linked to correct destination.
+All links included on this website have *target=_blank* attribute added, which means they will open in a new tab. That permits users to simply get back where they were within my page. All links have been manually tested to make sure they are linked to correct destination.
 
 For the contact form to work as planed, I added ‘require’ attribute to all the fields (name, email, message). If the fields are left blank – the form won’t submit. Furthermore if email address is invalid, the error message will notify the user.
 
