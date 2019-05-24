@@ -79,7 +79,7 @@ The following was used to create the website:
 1.  PyCharm - coding platform that was used for the coding and storing a local repository.
 2.  [Bootstrap](https://www.bootstrapcdn.com/) - used to simplify the structure and to make it responsive.
 3.  [FontAwesome](https://use.fontawesome.com) - accessed for social media icons.
-4.  [jquery](https://www.jquery.com) - used to reference Javascrip modal
+4.  [jquery](https://www.jquery.com) - used to reference Javascript modal
 5.  [Google Fonts](https://fonts.google.com/) - used to style the website fonts.
 6.  [YouTube](https://www.youtube.com/) - host of video included in the project section
 7.  Adobe XD - tool used to create wireframe.
@@ -101,7 +101,7 @@ For the contact form to work as planed, I added ‘require’ attribute to all t
 
 The website has been tested across multiple browsers (Chrome, Safari, FireFox) and across different screen sizes (Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure is responsive. 
 
-On bigger screens (min 992px and up) you will be able to see 2 images spread across the whole width of the screen that provide break between couple of sections. This gives the website the smooth scroll effect. I found this effect won't look good on smaller screens that's why it has been deisabled. Also for those reasons I decided not to include picture of myslef in *about me* section on those smallter screens.
+On bigger screens (min 992px and up) you will be able to see 2 images spread across the whole width of the screen that provide break between couple of sections. This gives the website the smooth scroll effect. I found this effect won't look good on smaller screens that's why it has been disabled. Also for those reasons I decided not to include picture of myself in *about me* section on those smaller screens.
 
 On top of it all, fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have been used to make them work.  
 
